@@ -118,7 +118,10 @@
 #section("All Projects")
 
 #set text(black, 10pt)
-*Reinforcement Learning Actor for Wind Turbine Blade Pitch Control, * #set text(red)
+
+#subsection("Machine Learning & AI & Computer Vision")
+
+*Reinforcement Learning Actor for Wind Turbine Blade Pitch Control* #set text(red)
   _*EPFL*_
   #set text(black) 
   •
@@ -130,37 +133,62 @@
         ] 
 - Developed a simulated environment and trained an actor–critic agent for optimal blade pitch control
 
-*Interactive World Map of Spotify Charts*  
-- Built an interactive world map visualization of global Spotify charts by country, genre, and artist, including a timeline of trends
-
-*Multi-Factor Equity Portfolio Strategy*  
-- Designed a portfolio integrating multiple factors to enhance risk-adjusted returns
-
+#v(-0.2em)
 
 *Benchmarking Recent Optimizers on LLMs*  
-- Benchmarked SignSGD, Lion, Sophia and Adam on GPT-2; compared convergence, stability, and final perplexity across seeds and hyperparameter settings.  
+- Benchmarked SignSGD, Lion, Sophia and Adam on GPT-2; compared convergence, stability, and final perplexity across seeds and hyperparameter settings.    
 
-*Point Cloud Dataset Generation, and benchmarked compression algorithms, *
-#set text(red)
+#v(-0.2em)
+
+*LLMs DPO & Quantization*  
+- Fine-tuned google/flan-t5-large with Direct Preference Optimization (DPO) and applied post-training quantization to reduce inference cost while preserving performance.  
+
+#v(-0.2em)
+
+*Point Cloud Dataset Generation* #set text(red)
   _*EPFL*_
   #set text(black) 
   •
     #set text(rgb("#063770"))
     _*MMSPG Lab*_
     #set text(black)  
-- Generated synthetic point-cloud datasets and benchmarked several compression algorithms for performance and reconstruction quality.  
+- Generated synthetic point-cloud datasets and benchmarked several compression algorithms for performance and reconstruction quality.
 
-*LLMs DPO & Quantization*  
-- Fine-tuned google/flan-t5-large with Direct Preference Optimization (DPO) and applied post-training quantization to reduce inference cost while preserving performance.  
+#v(-0.2em)
 
-*Vocabulary & Translation Android App*  
-- Kotlin app built in Android Studio featuring spaced-repetition exercises, translation practice, and customizable vocabulary lists for language learning.  
+*Procedural Island Terrain Generation*
+- Implemented a Wave Function Collapse based procedural generation pipeline to automatically build island terrain from tile constraints.
 
-*Oil Futures Pricing & Storage Modeling*  
-- Developed numerical models to price oil futures and storage options, implementing simulation and optimization routines for valuation under different market scenarios.  
+#v(-0.2em)
+
+*Research on Automated 3D Scene Generation*
+- Researched automated 3D indoor scene synthesis, implementing a CLIP-guided PSO layout pipeline and benchmarking multimodal models.
+
+#v(0.3em)
+
+#subsection("Systems & Applications")
 
 *Java Distributed Systems Simulator*  
 - Implemented reliable messaging, proposal / ACK / NACK protocols, and lattice-agreement experiments; supports configuration-driven runs and reproducible testing for distributed-algorithm research.  
 
+#v(-0.2em)
 
+*Vocabulary & Translation Android App*  
+- Kotlin app built in Android Studio featuring spaced-repetition exercises, translation practice, and customizable vocabulary lists for language learning.  
 
+#v(-0.2em)
+
+*Interactive World Map of Spotify Charts*  
+- Built an interactive world map visualization of global Spotify charts by country, genre, and artist, including a timeline of trends
+
+#v(0.3em)
+
+#subsection("Finance")
+
+*Multi-Factor Equity Portfolio Strategy*  
+- Designed a portfolio integrating multiple factors to enhance risk-adjusted returns
+
+#v(-0.2em)
+
+*Oil Futures Pricing & Storage Modeling*  
+- Developed numerical models to price oil futures and storage options, implementing simulation and optimization routines for valuation under different market scenarios.
