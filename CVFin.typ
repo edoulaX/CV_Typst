@@ -4,9 +4,13 @@
 #show: styling
 
 #v(-1.4em)
+
 #align(center)[
   = Edouard Lacroix\
-  Lausanne, Switzerland | edoulacroix\@gmail.com | +33 7 81 06 39 26 | #box(height: 9pt, image("github-logo.png")) edoulaX \
+  Paris, France | edoulacroix\@gmail.com | +33 7 81 06 39 26 | edoulaX
+  #link("https://github.com/edoulaX")[
+  #box(height: 9pt, image("github-logo.png"))
+] 
 ]
 
 // -----------------------------------
@@ -114,8 +118,8 @@
 #v(-1em)
 
 #box(width: 5pt) _*An Agent-Based System Approach to Silicon Wafer Defect Map Classification Using ViT*_\  
-#box(width: 16pt) – _Conducted a state-of-the-art literature review on agent system components (perception, cognition, memory, tools, communication, learning)_\
-#box(width: 16pt) – _Applied Vision Transformers (ViT) for defect map classification_
+#box(width: 16pt)   • _Conducted a state-of-the-art literature review on agent system components (perception, cognition, memory, tools, communication, learning)_\
+#box(width: 16pt)   • _Applied Vision Transformers (ViT) for defect map classification_
 #set text(black)
 
 #v(0.3em)
@@ -139,9 +143,11 @@
       stroke: none,
       [
         
-        _*Co-Founder of La Miellerie (music production organization)*_\
-        #box(width: 10pt) – _Managed sponsorship, marketing, and event teams_\
-        #box(width: 10pt) – _Organized concerts for audiences of 100+ attendees_\
+        _*Co-Founder of La Miellerie (music production organization)*_ #link("https://www.instagram.com/lamiellerie.asso/")[
+          #box(height: 6pt, image("linkIcon.png"))
+        ] \
+        #box(width: 10pt)   • _Managed sponsorship, marketing, and event teams_\
+        #box(width: 10pt)   • _Organized concerts for audiences of 100+ attendees_\
       ], [
         #set align(right)
         _2023 – 2025_
@@ -149,8 +155,10 @@
 
       [
         
-        _*IT Officer, Entrepreneur Club*_\
-        #box(width: 10pt) – _Implemented process automation and maintained the organization’s website_\
+        _*IT Officer of The Entrepreneur Club*_ #link("https://www.ec-epfl-unil.org")[
+          #box(height: 6pt, image("linkIcon.png"))
+        ]\
+        #box(width: 10pt)   • _Implemented process automation and maintained the organization’s website_\
       ], [
         #set align(right)
         _2023_
@@ -166,19 +174,32 @@
 #section("Selected Projects")
 
 #set text(black, 10pt)
-*Reinforcement Learning Actor for Wind Turbine Blade Pitch Control (EPFL UNFoLD Lab):*  
+*Reinforcement Learning Actor for Wind Turbine Blade Pitch Control, * #set text(red)
+  _*EPFL*_
+  #set text(black) 
+  •
+    #set text(rgb("#063770"))
+    _*UNFoLD Lab*_
+    #set text(black)
+    #link("https://epfl-unfold.notion.site/Optimisation-and-control-of-vertical-axis-wind-turbines-3d9c2c945da5419a805479d3822961a4")[
+          #box(height: 6pt, image("linkIcon.png"))
+        ] 
 - Developed a simulated environment and trained an actor–critic agent for optimal blade pitch control
 
-*Interactive World Map of Spotify Charts:*  
-- Built an interactive web visualization of global Spotify charts by country, genre, and artist, including a timeline of trends
+*Interactive World Map of Spotify Charts*  
+- Built an interactive world map visualization of global Spotify charts by country, genre, and artist, including a timeline of trends
 
-*Multi-Factor Equity Portfolio Strategy:*  
+*Multi-Factor Equity Portfolio Strategy*  
 - Designed a portfolio integrating multiple factors to enhance risk-adjusted returns
+
+*Oil Futures Pricing & Storage Modeling*  
+- Developed numerical models to price oil futures and storage options, implementing simulation and optimization routines for valuation under different market scenarios.
 
 #v(0.4em)
 // -----------------------------------
 // Skills
 #section("Skills")
+#v(-0.5em)
 #table(
   align: (right, left),
   columns: (auto, 1fr),
@@ -194,10 +215,16 @@
   [*Git* (GitHub, GitLab), Docker, Dataiku, Jupyter Notebooks, Notion, LaTeX, Typst]
 )
 
-#v(0em)
+#v(-0.9em)
 #set text(9pt)
 #section("Interests")
-• *Music* (production, live performances: HEC Graduation 2023 & Concerts) • *Sports* (Tennis: FFT 15/1 & interclub competition; Football: international tournaments; Skiing: Flèche d’Or) • *3D Design* (Spline, Blender)
+• *Music* (production, live performances: HEC Graduation 2023 with 1000+ attendees & Concerts) 
+• *Sports* (Tennis: _FFT 15/1 & interclub competition & official referee_; Football: _international tournaments_; Ski: _Flèche d’Or award_) 
+• *3D Design* (Spline, Blender)
+
+#v(-0em)
 
 #section("Languages")
 • *French* (native) • *English* (C1, professional proficiency) • *Spanish* (C1, fluent) • *Italian* (A2, basic)
+
+
